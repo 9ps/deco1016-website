@@ -12,6 +12,8 @@ body {
     transition-duration: 0.5s;
 }
 
+/* NAV COMPONENTS */
+
 .form-group input {
     padding: 1em;
     border-radius: 4em;
@@ -247,11 +249,19 @@ body {
     cursor: pointer;
 }
 
+/* .a {
+    text-align: center;
+} */
+
 .done {
     background-color: #DD292D;
     height: 1em;
     transition-duration: 0.5s;
 }
+
+/* .a2 {
+    margin-top: 1em;
+} */
 
 .form-group {
     text-align: center;
@@ -300,11 +310,16 @@ form .form-group.has-success>input, form .form-group.has-success>select {
 }
 
 #continueReal {
+    /* height: 0em; */
+    /* opacity: 0; */
+    /* transition-duration: 0.5s; */
     display: block;
     margin: 0 auto;
 }
 
 #continueSecret {
+    /* opacity: 0; */
+    /* transition-duration: 0.5s; */
     display: none;
     margin: 0 auto;
 }
@@ -384,6 +399,8 @@ form .form-group.has-success>input, form .form-group.has-success>select {
     line-height: 1.5em;
 }
 
+/* The Close Button */
+
 .close {
     color: #aaaaaa;
     float: right;
@@ -399,6 +416,12 @@ form .form-group.has-success>input, form .form-group.has-success>select {
     font-size: 1.25em;
     font-weight: bolder;
 }
+
+/*  */
+
+/*  */
+
+/*  */
 
 #filler {
     height: 6em;
@@ -468,6 +491,10 @@ form .form-group.has-success>input, form .form-group.has-success>select {
     background-color: #FFF;
 }
 
+/*  */
+
+/*  */
+
 .page1cardlink {
     display: block;
     padding-left: 2em;
@@ -506,6 +533,21 @@ form .form-group.has-success>input, form .form-group.has-success>select {
     #page1background {
         display: none;
     }
+    #largeAction {
+        width: 18em;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+    .card {
+        width: calc(100% - 8em);
+        margin-top: 2em;
+        margin: auto;
+        padding: 1em;
+    }
+    .spacer {
+        display: block;
+        height: 2em;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -528,11 +570,16 @@ form .form-group.has-success>input, form .form-group.has-success>select {
     }
     .card {
         width: calc(100% - 8em);
+        margin-top: 2em;
         margin: auto;
         padding: 1em;
     }
     #page1background {
         display: none;
+    }
+    .spacer {
+        display: block;
+        height: 2em;
     }
 }
 
