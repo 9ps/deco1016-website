@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Donate Blood</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body id="reg">
+    <div class="headerNav">
+        <img src="img/logo.png" alt="LOGO" id="logoImage2">
+    </div>
+    <div class="done" id="done4"></div>
+    <div class="pre">
+        <div id="prefirstline">
+            <h1 id="header2">Getting Contacts</h1>
+        </div>
+    </div>
+    <main>
+        <form action="index4.html">
+            <div class="form-group">
+                <p class="question">Your Home Address?<a onclick="whyMenu()" class="action" id="why">why?</a></p>
+                <input type="text" name="address" placeholder="123 Example St">
+                <div class="messages"></div>
+            </div>
+            <div class="form-group">
+                <p class="question">How about your Suburb?</p>
+                <input type="text" name="suburb" placeholder="Suburb Name">
+                <div class="messages"></div>
+            </div>
+            <div class="form-group">
+                <p class="question">What is your Phone Number?</p>
+                <input type="text" name="phone" placeholder="0123456789">
+                <div class="messages"></div>
+            </div>
+            <div class="form-group">
+                <p class="question">Can we get your Email?</p>
+                <input type="text" name="email" placeholder="example@email.com">
+                <div class="messages"></div>
+            </div>
+            <div class="form-group">
+                <p class="question">What is your preferred verification method?</a>
+                </p>
+
+                <span class="radio radio_left" id="radio_left1" onclick="boolYes1()">Phone</span>
+                <span class="radio radio_right" id="radio_right1" onclick="boolNo1()">Email</span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="action continue">Continue</button>
+            </div>
+        </form>
+    </main>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close material-icons">close</span>
+            <p>Your mailing adress is required for medical purposes in case of emergency during donation (of which there
+                is barely any chance of happening). This information is securely saved and encrypted, and deleted from
+                our servers post-donation.</p>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="script5.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
+</body>
+
+</html>

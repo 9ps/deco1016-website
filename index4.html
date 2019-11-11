@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Donate Blood</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+
+<body id="reg">
+    <div class="headerNav">
+        <img src="img/logo.png" alt="LOGO" id="logoImage2">
+    </div>
+    <div class="done" id="done3"></div>
+    <div class="pre">
+        <div id="prefirstline">
+            <h1 id="header2">About You</h1>
+        </div>
+    </div>
+    <main>
+        <form action="index5.html">
+            <div class="form-group">
+                <p class="question">What is your Date of Birth?</p>
+                <input type="date" name="birthdate" id="birthdate" placeholder="">
+                <div class="messages" id="boomerdetected"></div>
+            </div>
+            <div class="form-group">
+                <p class="question">Please indicate your sex.<a onclick="whyMenu()" class="action" id="why">why?</a></p>
+
+                <span class="radio radio_left" id="radio_left1" onclick="boolYes1()">Male</span>
+                <span class="radio radio_right" id="radio_right1" onclick="boolNo1()">Female</span>
+            </div>
+            <div class="form-group link">
+                <a onclick="expand()" class="expando"><i class="material-icons">expand_more</i>Add a Prefered Gender
+                    (optional)</a>
+            </div>
+            <div class="form-group" id="secret">
+                <input type="text" name="preferred_gender" placeholder="Preferred Gender">
+                <div class="messages"></div>
+            </div>
+            <div class="form-group" id="act">
+                <button type="submit" class="action continue" id="realContinue">Continue</button>
+                <a href="index.html" class="action continue" id="secretBack">Back</a>
+            </div>
+        </form>
+    </main>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close material-icons">close</span>
+            <p>Your sex at birth is required for medical purposes, as the conditions surrounding blood donation and
+                blood in your system is dependant on sex at birth.</p>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="script4.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
+</html>
