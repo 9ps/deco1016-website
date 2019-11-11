@@ -12,8 +12,6 @@ body {
     transition-duration: 0.5s;
 }
 
-/* NAV COMPONENTS */
-
 .form-group input {
     padding: 1em;
     border-radius: 4em;
@@ -249,19 +247,11 @@ body {
     cursor: pointer;
 }
 
-/* .a {
-    text-align: center;
-} */
-
 .done {
     background-color: #DD292D;
     height: 1em;
     transition-duration: 0.5s;
 }
-
-/* .a2 {
-    margin-top: 1em;
-} */
 
 .form-group {
     text-align: center;
@@ -310,16 +300,11 @@ form .form-group.has-success>input, form .form-group.has-success>select {
 }
 
 #continueReal {
-    /* height: 0em; */
-    /* opacity: 0; */
-    /* transition-duration: 0.5s; */
     display: block;
     margin: 0 auto;
 }
 
 #continueSecret {
-    /* opacity: 0; */
-    /* transition-duration: 0.5s; */
     display: none;
     margin: 0 auto;
 }
@@ -399,8 +384,6 @@ form .form-group.has-success>input, form .form-group.has-success>select {
     line-height: 1.5em;
 }
 
-/* The Close Button */
-
 .close {
     color: #aaaaaa;
     float: right;
@@ -416,12 +399,6 @@ form .form-group.has-success>input, form .form-group.has-success>select {
     font-size: 1.25em;
     font-weight: bolder;
 }
-
-/*  */
-
-/*  */
-
-/*  */
 
 #filler {
     height: 6em;
@@ -490,10 +467,6 @@ form .form-group.has-success>input, form .form-group.has-success>select {
     box-shadow: 2px 4px 10px rgba(0, 0, 0, .50);
     background-color: #FFF;
 }
-
-/*  */
-
-/*  */
 
 .page1cardlink {
     display: block;
