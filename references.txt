@@ -1,0 +1,7 @@
+this assignment was completed before the due date, however I am adding this section to properly credit where I got code from
+
+
+https://www.w3schools.com/howto/howto_css_modals.asp
+https://validatejs.org/examples.html // i used the validate.js library
+https://material.io/resources/icons/ //i used whatever this is
+I also recieved assistance in troubleshooting my header nav hamburger menu by Danny Won (dwon0716)
